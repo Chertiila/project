@@ -1,11 +1,10 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class summon : MonoBehaviour
+public class II : MonoBehaviour
 {
     // Start is called before the first frame update
-    public GameObject[] cube;
     void Start()
     {
         
@@ -14,6 +13,6 @@ public class summon : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-     
+        
     }
 }
