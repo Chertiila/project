@@ -21,7 +21,8 @@ public class II : MonoBehaviour
         agent = GetComponent<NavMeshAgent>();
         my_transform = GetComponent<Transform>;
         target = random_point_radius;
-        near_player = Instantiate()
+        near_player = Instantiate(random_point_prefab, Vector3.zero, Quaternion.identity).transform;
+        StartCoroutine(Move_COR());
     }
 
     // Update is called once per frame
@@ -29,4 +30,3 @@ public class II : MonoBehaviour
     {
         
     }
-}
