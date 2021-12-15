@@ -5,7 +5,7 @@ using UnityEngine;
 public class summon : MonoBehaviour
 {
     // Start is called before the first frame update
-    public GameObject cube;
+    public GameObject[] cube;
     void Start()
     {
         
@@ -14,6 +14,6 @@ public class summon : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-      Instatiate(cube[0]);  
+     
     }
 }
